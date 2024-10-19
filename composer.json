@@ -1,0 +1,17 @@
+{
+    "name": "aburiad/my-plugin",
+    "description": "test",
+    "autoload": {
+        "psr-4": {
+           "Admin\\": "src/admin/"
+        }
+    },
+    "authors": [
+        {
+            "name": "riad"
+        }
+    ],
+    "require": {
+        "cmb2/cmb2": "^2.11"
+    }
+}
